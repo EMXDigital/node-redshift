@@ -98,6 +98,14 @@ Both Raw Connections and Connection Pool connections have two query functions th
 
 All `query()` and `parameterizedQuery()` functions support **both callback and promise style**. If there's a function as a third argument, the callback will fire. If there's no third function argument, but instead (query, [options]).then({})... the promise will fire.
 
+#### Query Options
+You can pass an optional object with any of the below properties to the Query API methods
+
+| Option                | Type          | Description                                                                       |
+| --------------------- |:-------------:| ---------------------------------------------------------------------------------:|
+| raw         | Boolean       | If true only the data from redshift it's returned. Otherwise, the data with the pg object it's returned                         |
+| maxQueryTimeout       | Number | An optional maximun number of milliseconds to restrict the query running time. 
+
 ```javascript
 //raw connection
 var redshiftClient = require('./redshift.js');
