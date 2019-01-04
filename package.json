@@ -9,6 +9,7 @@
     "migrate": "^0.2.2",
     "pg": "^6.1.2",
     "pg-cursor": "git+https://github.com/jafl/node-pg-cursor.git#redshift-requires-portal-name",
+    "pg-query-stream": "^1.1.2",
     "sql-bricks": "^1.2.3"
   },
   "repository": {
