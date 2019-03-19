@@ -1,5 +1,5 @@
 {
-  "name": "@EMXDigital/node-redshift",
+  "name": "@emxdigital/node-redshift",
   "version": "0.1.5",
   "description": "A simple collection of tools to help you get started with Amazon Redshift from node.js",
   "main": "index.js",
